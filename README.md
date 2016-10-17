@@ -1,6 +1,7 @@
 # INSSqlStr
 SQL Server使用存储过程导出sql
 使用SQL Server存储过程将数据导出为sql语句
+
 --查询全部数据
 EXEC dbo.BuildINSSqlStr @Query = 'dbo.account_User where 1=1' -- varchar(max)
   #参数说明：
